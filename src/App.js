@@ -1,10 +1,8 @@
 
+import Contador from "./Contador";
+
 function App() {
-  return (
-    <div className="App">
-      <h1>Mi applicacion en React</h1>
-    </div>
-  );
+  return  < Contador />
 }
 
 export default App;
