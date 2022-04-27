@@ -3,7 +3,7 @@ import { useState } from "react";
 import "./contador.css"
 
 function Contador() {
-    const [Contador, setcontador] = useState(0);
+  const [Contador, setcontador] = useState(0);
 
     //Funcion de flecha
     const incrementar = (previo) => { return previo + 1; };
